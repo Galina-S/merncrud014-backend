@@ -1,4 +1,4 @@
-@url = http://localhost:5001
+@url = http://localhost:5030
 
 ### GET INFO
 GET {{url}}
@@ -36,7 +36,7 @@ content-type: application/json
 }
 
 ### DELETE BOOK
-DELETE {{url}}/book/63c858db629fc2975e9ab3c2
+theDELETE {{url}}/book/63c858db629fc2975e9ab3c2
 
 ### BAD LOGIN 
 POST {{url}}/login
@@ -51,7 +51,7 @@ POST {{url}}/login
 content-type: application/json
 
 {
-	"password": "123"
+	"password": "112"
 }
 
 ### GET CURRENT USER

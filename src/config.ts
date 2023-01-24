@@ -12,7 +12,7 @@ export const MONGODB_CONNECTION = process.env.MONGODB_CONNECTION;
 
 export const SESSION_SECRET = process.env.SESSION_SECRET;
 
-export const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
+export const ADMIN_HASH = process.env.ADMIN_HASH;
 
 export const FRONTEND_URL = process.env.FRONTEND_URL;
 
